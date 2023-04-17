@@ -1,0 +1,18 @@
+Topic 0:
+(0, '0.010*"state" + 0.008*"new" + 0.008*"time" + 0.006*"york" + 0.005*"islamic" + 0.005*"trump" + 0.004*"united" + 0.004*"one" + 0.004*"american" + 0.004*"iraq" + 0.003*"year" + 0.003*"would"')
+
+Topic 1:
+(1, '0.000*"state" + 0.000*"islamic" + 0.000*"time" + 0.000*"new" + 0.000*"trump" + 0.000*"american" + 0.000*"people" + 0.000*"would" + 0.000*"attack" + 0.000*"york" + 0.000*"one" + 0.000*"group"')
+
+Topic 2:
+(2, '0.010*"state" + 0.010*"trump" + 0.006*"islamic" + 0.005*"syria" + 0.005*"president" + 0.004*"force" + 0.004*"official" + 0.004*"military" + 0.004*"right" + 0.004*"new" + 0.004*"people" + 0.004*"country"')
+
+Topic 3:
+(3, '0.000*"state" + 0.000*"trump" + 0.000*"new" + 0.000*"islamic" + 0.000*"time" + 0.000*"one" + 0.000*"president" + 0.000*"american" + 0.000*"right" + 0.000*"force" + 0.000*"syria" + 0.000*"people"')
+
+Topic 4:
+(4, '0.009*"state" + 0.006*"new" + 0.006*"time" + 0.006*"trump" + 0.006*"islamic" + 0.004*"one" + 0.004*"york" + 0.004*"american" + 0.004*"people" + 0.004*"attack" + 0.004*"would" + 0.003*"president"')
+
+Topic 5:
+(5, '0.000*"trump" + 0.000*"state" + 0.000*"new" + 0.000*"united" + 0.000*"islamic" + 0.000*"syria" + 0.000*"president" + 0.000*"time" + 0.000*"would" + 0.000*"attack" + 0.000*"york" + 0.000*"american"')
+
