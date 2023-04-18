@@ -9,6 +9,11 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize, sent_tokenize
 from gensim import corpora, models
 
+#import nltk
+#nltk.download('stopwords')
+#nltk.download('omw-1.4')
+
+
 # Function to load data from folder path
 def load_data(folder_path):
     articles = []
@@ -78,7 +83,7 @@ def run_and_save_lda(folder_path, num_topics, num_words, passes, output_file):
             f.write(str(topic_words[topic]) + "\n\n")
 
 
-folder_path = r"C:/Users/jasin/OneDrive/Documents/Text Mining/Mini_Project_3/Articles/Articles"
+folder_path = "Articles/"
 
 # Define different parameters to build the LDA model
 params = [{"num_topics": 5, "num_words": 10, "passes": 15},{"num_topics": 6, "num_words": 12, "passes": 20},{"num_topics": 7, "num_words": 8, "passes": 10},{"num_topics": 10, "num_words": 10, "passes": 15}]
