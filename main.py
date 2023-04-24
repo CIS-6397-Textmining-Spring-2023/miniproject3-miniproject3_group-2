@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize, sent_tokenize
 from gensim import corpora, models
+from gensim.test.utils import datapath
 
 #import nltk
 #nltk.download('stopwords')
@@ -70,12 +71,11 @@ def plot_topics(lda_model):
         print(topic_words[topic])
 
 # Function to run the LDA analysis and save the results to a file
-def run_and_save_lda(folder_path, num_topics, num_words, passes, output_file):
-    articles = load_data(folder_path)
-    cleaned_articles = preprocess_data(articles)
-    corpus, dictionary = create_corpus_dictionary(cleaned_articles)
+def run_and_save_lda(corpus, dictionary, num_topics, passes, model_number, output_file):
     lda_model = train_lda(corpus, dictionary, num_topics, passes)
-    topic_words = lda_model.print_topics(num_words=num_words)
+    temp_file = 'Models/lda_model_' + str(model_number+1)
+    lda_model.save(temp_file)
+    topic_words = lda_model.print_topics(num_words=10)
     
     with open(output_file, "w") as f:
         for topic in range(num_topics):
@@ -84,13 +84,17 @@ def run_and_save_lda(folder_path, num_topics, num_words, passes, output_file):
 
 
 folder_path = "Articles/"
+articles = load_data(folder_path)
+cleaned_articles = preprocess_data(articles)
+corpus, dictionary = create_corpus_dictionary(cleaned_articles)
+
 
 # Define different parameters to build the LDA model
-params = [{"num_topics": 5, "num_words": 10, "passes": 15},{"num_topics": 6, "num_words": 12, "passes": 20},{"num_topics": 7, "num_words": 8, "passes": 10},{"num_topics": 10, "num_words": 10, "passes": 15}]
+params = [{"num_topics": 5, "passes": 10},{"num_topics": 10, "passes": 10},{"num_topics": 5, "passes": 20},{"num_topics": 10, "passes": 20}]
+
 
 # Iterating through the parameters and building different LDA models
 for i, p in enumerate(params):
     output_file = f"output_{i + 1}.txt"
-    run_and_save_lda(folder_path,  p["num_topics"], p["num_words"], p["passes"], output_file)
-    
+    run_and_save_lda(corpus, dictionary,  p["num_topics"], p["passes"], i, output_file)
 
