@@ -1,30 +1,30 @@
 Topic 0:
-(0, '0.020*"state" + 0.016*"islamic" + 0.012*"syria" + 0.011*"force" + 0.009*"iraq" + 0.008*"syrian" + 0.007*"iraqi" + 0.007*"military" + 0.007*"american" + 0.006*"official"')
+(0, '0.008*"time" + 0.007*"new" + 0.006*"one" + 0.005*"trump" + 0.005*"like" + 0.004*"people" + 0.004*"year" + 0.004*"york" + 0.004*"would" + 0.004*"news"')
 
 Topic 1:
-(1, '0.019*"trump" + 0.009*"think" + 0.009*"president" + 0.008*"going" + 0.007*"gigot" + 0.006*"right" + 0.006*"people" + 0.005*"would" + 0.005*"know" + 0.005*"time"')
+(1, '0.008*"new" + 0.007*"time" + 0.005*"york" + 0.004*"country" + 0.003*"state" + 0.003*"one" + 0.003*"american" + 0.003*"war" + 0.003*"also" + 0.003*"government"')
 
 Topic 2:
-(2, '0.017*"trump" + 0.008*"president" + 0.008*"state" + 0.008*"american" + 0.007*"new" + 0.007*"afghanistan" + 0.007*"military" + 0.005*"administration" + 0.005*"saudi" + 0.005*"time"')
+(2, '0.006*"woman" + 0.006*"turkey" + 0.005*"trump" + 0.005*"day" + 0.004*"muslim" + 0.004*"people" + 0.004*"saudi" + 0.004*"would" + 0.004*"erdogan" + 0.003*"syrian"')
 
 Topic 3:
-(3, '0.011*"time" + 0.008*"new" + 0.006*"facebook" + 0.006*"york" + 0.006*"people" + 0.005*"news" + 0.005*"one" + 0.004*"like" + 0.004*"year" + 0.004*"trump"')
+(3, '0.013*"attack" + 0.010*"islamic" + 0.009*"state" + 0.008*"police" + 0.007*"people" + 0.006*"group" + 0.006*"killed" + 0.005*"city" + 0.005*"one" + 0.005*"militant"')
 
 Topic 4:
-(4, '0.010*"attack" + 0.010*"state" + 0.009*"islamic" + 0.008*"philippine" + 0.007*"group" + 0.007*"killed" + 0.006*"militant" + 0.006*"new" + 0.006*"city" + 0.006*"time"')
+(4, '0.013*"iraq" + 0.012*"iraqi" + 0.011*"state" + 0.008*"islamic" + 0.007*"mosul" + 0.007*"iran" + 0.007*"city" + 0.005*"isi" + 0.005*"force" + 0.004*"sunni"')
 
 Topic 5:
-(5, '0.019*"state" + 0.011*"united" + 0.008*"country" + 0.007*"islamic" + 0.007*"order" + 0.007*"muslim" + 0.006*"refugee" + 0.006*"new" + 0.005*"time" + 0.005*"iraq"')
+(5, '0.008*"state" + 0.005*"one" + 0.005*"islamic" + 0.005*"attack" + 0.004*"year" + 0.004*"time" + 0.004*"people" + 0.004*"would" + 0.003*"group" + 0.003*"refugee"')
 
 Topic 6:
-(6, '0.013*"attack" + 0.007*"police" + 0.007*"state" + 0.006*"islamic" + 0.006*"one" + 0.005*"people" + 0.005*"year" + 0.004*"time" + 0.004*"manchester" + 0.004*"terrorist"')
+(6, '0.020*"trump" + 0.009*"think" + 0.009*"president" + 0.007*"going" + 0.007*"gigot" + 0.006*"right" + 0.006*"people" + 0.005*"would" + 0.005*"get" + 0.005*"know"')
 
 Topic 7:
-(7, '0.010*"new" + 0.008*"york" + 0.006*"time" + 0.004*"daily" + 0.004*"document" + 0.004*"drug" + 0.004*"state" + 0.004*"episode" + 0.003*"israeli" + 0.003*"palestinian"')
+(7, '0.006*"state" + 0.006*"team" + 0.006*"fbi" + 0.006*"according" + 0.005*"federal" + 0.005*"new" + 0.005*"case" + 0.004*"government" + 0.004*"company" + 0.004*"one"')
 
 Topic 8:
-(8, '0.011*"trump" + 0.009*"new" + 0.006*"time" + 0.006*"president" + 0.005*"york" + 0.004*"company" + 0.004*"would" + 0.004*"state" + 0.004*"one" + 0.004*"year"')
+(8, '0.022*"state" + 0.012*"islamic" + 0.010*"syria" + 0.009*"trump" + 0.009*"american" + 0.008*"force" + 0.008*"military" + 0.008*"united" + 0.008*"official" + 0.006*"syrian"')
 
 Topic 9:
-(9, '0.007*"time" + 0.007*"new" + 0.006*"one" + 0.005*"would" + 0.004*"like" + 0.004*"york" + 0.004*"people" + 0.004*"woman" + 0.004*"family" + 0.004*"year"')
+(9, '0.011*"state" + 0.008*"mattis" + 0.006*"afghanistan" + 0.006*"american" + 0.005*"united" + 0.005*"obama" + 0.005*"islamic" + 0.005*"military" + 0.004*"new" + 0.004*"also"')
 
